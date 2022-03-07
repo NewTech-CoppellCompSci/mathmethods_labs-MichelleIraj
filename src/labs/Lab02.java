@@ -29,7 +29,7 @@ public class Lab02 {
 		int min = Math.min(num, num2); //calculates the min between the two integers 
 		int scope = max - min + 1; //variable created for the range 
 		
-		for (int i = 1; i <= 10; i++) { //conf=dition is made so it only prints the random numbers 10 times 
+		for (int i = 1; i <= 10; i++) { //condition is made so it only prints the random numbers 10 times 
 			
 			int randomNum = (int) (Math.random()* scope + min); //random number genrator 
 			 System.out.print(randomNum + " "); //prints the random number 
@@ -83,10 +83,11 @@ public class Lab02 {
 		double formula = Math.sqrt(x + y); //finally adds the y and x value and takes the squareroot of it
 		
 		System.out.print("Distance between the points: " + formula); //printing out the final answer 
+	
+		System.out.print("\n");
+		
 	}
 
-
-	
 	
 	public static void problem04() {
 		
@@ -114,6 +115,8 @@ public class Lab02 {
 		System.out.println("x1 = " + s4); //printing out the final answer
 		System.out.println("x2 = " + s5);
 
+		System.out.print("\n");
+		
 	}
 	
 	
