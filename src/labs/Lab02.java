@@ -22,8 +22,8 @@ public class Lab02 {
 		System.out.print("Enter a positive integer: "); //asks the user for them to input data
 		int num = inKey.nextInt(); //collects the data and stores it 
 		
-		System.out.print("Enter another positive integer: ");
-		int num2 = inKey.nextInt(); 
+		System.out.print("Enter another positive integer: ");//asks the user for them to input data
+		int num2 = inKey.nextInt(); //collects the data and stores it 
 		
 		int max = Math.max(num, num2); //calculates the max between the two integers 
 		int min = Math.min(num, num2); //calculates the min between the two integers 
@@ -35,7 +35,7 @@ public class Lab02 {
 			 System.out.print(randomNum + " "); //prints the random number 
 		}
 		
-		System.out.print("\n");
+		System.out.print("\n"); //formatting purposes 
 		
 	}
 	
@@ -54,7 +54,7 @@ public class Lab02 {
 		
 		System.out.print(v); //prints out the volume 
 		
-		System.out.print("\n");
+		System.out.print("\n"); //formatting purposes 
 	}
 
 	
@@ -84,7 +84,7 @@ public class Lab02 {
 		
 		System.out.print("Distance between the points: " + formula); //printing out the final answer 
 	
-		System.out.print("\n");
+		System.out.print("\n"); //formatting purposes 
 		
 	}
 
@@ -115,7 +115,7 @@ public class Lab02 {
 		System.out.println("x1 = " + s4); //printing out the final answer
 		System.out.println("x2 = " + s5);
 
-		System.out.print("\n");
+		System.out.print("\n"); //formatting purposes 
 		
 	}
 	

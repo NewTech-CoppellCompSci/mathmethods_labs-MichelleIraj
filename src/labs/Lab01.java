@@ -22,13 +22,13 @@ public class Lab01 {
 		System.out.print("Enter a positive integer: "); //informs the user of what data they should input
 		int integer = inKey.nextInt(); //collects the data and stores it into the variable "integer"
 		
-		System.out.print("Enter another positive integer: "); 
-		int integer2 = inKey.nextInt();
+		System.out.print("Enter another positive integer: "); //informs the user of what data they should input
+		int integer2 = inKey.nextInt(); //collects the data and stores it into the variable "integer"
 		
 		double product = Math.pow(integer, integer2); //math formula for caluclating the exponents 
 		System.out.print(integer + "^" + integer2 + " = " + product); //printing our the final statement 
 		
-		System.out.println("\n");
+		System.out.println("\n"); //formatting purposes 
 		
 	}
 	
@@ -44,7 +44,7 @@ public class Lab01 {
 		double product = Math.sqrt(num); //calculates the squareroot 
 		System.out.print("The square root of " + num + " is " + product); //prints out the squareroot of the number
 		
-		System.out.println("\n");
+		System.out.println("\n"); //formatting purposes 
 
 	}
 
@@ -70,7 +70,7 @@ public class Lab01 {
 		
 		System.out.print("Hypotenuse = " + hypo); //printing out the hypotenuse value 
 		
-		System.out.println("\n");
+		System.out.println("\n"); //formatting purposes 
 
 	}
 

@@ -11,8 +11,8 @@ public class PerformanceTask {
 		System.out.print("Enter launch velocity (m/s) >>> "); //asks the user to input data 
 		double launchVelocity = inkey.nextDouble(); //collects and stores the data in a variable 
 		
-		System.out.print("Enter launch angle (degrees) >>> ");
-		double launchAngle = inkey.nextDouble();
+		System.out.print("Enter launch angle (degrees) >>> "); //asks the user to input data 
+		double launchAngle = inkey.nextDouble(); //collects and stores the data in a variable 
 		
 		System.out.println("Projectile's path: "); //printing for formatting purposes 
 		
